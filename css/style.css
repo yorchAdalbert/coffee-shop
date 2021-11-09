@@ -54,3 +54,102 @@
   color: whitesmoke;
   padding: 0.5rem 20rem;
 }
+
+/*Product Section*/
+
+.galery {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.galery img {
+  width: 20%;
+  height: 38vh;
+  margin: 1rem 3rem;
+}
+
+.products {
+  border: 0.5rem dashed burlywood;
+  margin: 2rem 2rem;
+}
+
+.subtitle {
+  position: relative;
+  display: inline-block;
+  bottom: 1.6rem;
+  background-color: white;
+  font-size: 2.5rem;
+  color: brown;
+  left: 75%;
+  padding: 0 1rem;
+}
+
+/*Members Section*/
+
+.members {
+  margin-top: 3rem;
+  background-color: burlywood;
+  height: 90vh;
+}
+
+.team {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.move-right {
+  left: 10%;
+}
+
+/*Address Section*/
+
+.address {
+  height: 70vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 0.5rem dashed burlywood;
+  border-bottom: 0.5rem dashed burlywood;
+}
+
+.center {
+  left: 44%;
+  top: 1.7rem;
+}
+
+/*Footer Section*/
+
+footer {
+  height: 20vh;
+  background-color: black;
+  margin-top: 1rem;
+  color: white;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+}
+
+.social-media img {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+.social-media h4 {
+  text-align: center;
+  padding-left: 1rem;
+}
+
+.company-name {
+  text-align: center;
+}
+
+/*Media queries*/
+
+@media screen {
+}
