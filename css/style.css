@@ -72,7 +72,7 @@
 
 .products {
   border: 0.5rem dashed burlywood;
-  margin: 2rem 2rem;
+  margin: 5rem 2rem;
 }
 
 .subtitle {
@@ -89,7 +89,7 @@
 /*Members Section*/
 
 .members {
-  margin-top: 3rem;
+  margin-top: 5rem;
   background-color: burlywood;
   height: 90vh;
 }
