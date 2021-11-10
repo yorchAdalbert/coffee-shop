@@ -89,9 +89,11 @@
 /*Members Section*/
 
 .members {
-  margin-top: 5rem;
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
   background-color: burlywood;
-  height: 90vh;
+  height: 77vh;
+  width: 95%;
 }
 
 .team {
