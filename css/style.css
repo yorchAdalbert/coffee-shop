@@ -109,6 +109,7 @@
 /*Join us Section*/
 
 .border--join {
+  width: 50%;
   height: 76vh;
   margin: 2rem 30rem;
 }
@@ -153,6 +154,35 @@ button[type="submit"] {
   background-color: burlywood;
   color: white;
   font-size: 1.2rem;
+}
+
+/*Contact Section*/
+
+main {
+  display: flex;
+}
+
+.picture img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  height: 84vh;
+  width: 100%;
+}
+
+form {
+  width: 50%;
+}
+
+.normal-position {
+  position: relative;
+  top: 2.5rem;
+  left: 10%;
+  margin-bottom: 5rem;
+}
+
+.form-container {
+  padding-left: 5rem;
 }
 
 /*Address Section*/
