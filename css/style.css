@@ -70,7 +70,7 @@
   margin: 1rem 3rem;
 }
 
-.products {
+.border {
   border: 0.5rem dashed burlywood;
   margin: 2rem 4rem;
 }
@@ -104,6 +104,55 @@
 
 .move-right {
   left: 10%;
+}
+
+/*Join us Section*/
+
+.border--join {
+  height: 76vh;
+  margin: 2rem 30rem;
+}
+
+.user-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.next-line {
+  display: block;
+}
+
+label {
+  visibility: hidden;
+}
+
+::placeholder {
+  color: brown;
+  font-size: 1rem;
+}
+
+input[type="email"],
+input[type="text"] {
+  width: 120%;
+  height: 2rem;
+  padding-left: 0.5rem;
+  border: 0 solid white;
+  border-bottom: 0.2rem solid burlywood;
+  outline: none;
+  margin-bottom: 0.8rem;
+}
+
+button[type="submit"] {
+  width: 100%;
+  height: 3rem;
+  margin-left: 10%;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: burlywood;
+  color: white;
+  font-size: 1.2rem;
 }
 
 /*Address Section*/
