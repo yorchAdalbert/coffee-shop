@@ -170,6 +170,18 @@ button[type="submit"] {
   font-size: 1.2rem;
 }
 
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid burlywood;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin-left: 1.8rem;
+}
+
 /*Contact Section*/
 
 main {
@@ -197,6 +209,10 @@ form {
 
 .form-container {
   padding-left: 5rem;
+}
+
+.contact-info {
+  margin-left: 7rem;
 }
 
 /*Address Section*/
@@ -243,5 +259,115 @@ footer {
 
 /*Media queries*/
 
-@media screen {
+/*Main Section*/
+@media screen and (max-width: 1180px) {
+  .mission p {
+    padding: 0.5rem 10rem;
+  }
+
+  .mission {
+    bottom: -0.4rem;
+  }
+}
+
+@media screen and (max-width: 852px) {
+  .mission p {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 696px) {
+  .mission p {
+    padding: 0.5rem;
+  }
+  .center {
+    bottom: -3rem;
+    left: 34%;
+  }
+  .mission {
+    margin-bottom: 1rem;
+  }
+}
+
+/*Nav-bar*/
+
+@media screen and (max-width: 697px) {
+  .nav-bar {
+    background-color: brown;
+  }
+
+  .logo img {
+    width: 12rem;
+    height: 3.5rem;
+  }
+
+  .nav-items li {
+    font-size: 1rem;
+    margin-left: 0.6rem;
+  }
+
+  .nav-items a {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .nav-bar {
+    display: block;
+  }
+  .nav-items li {
+    display: block;
+  }
+}
+
+/*Locations and footer*/
+
+@media screen and (max-width: 1222px) {
+  .center {
+    left: 42%;
+  }
+}
+
+@media screen and (max-width: 865px) {
+  .center {
+    left: 40%;
+  }
+  iframe {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 627px) {
+  .address {
+    flex-wrap: wrap;
+  }
+  iframe {
+    width: 90%;
+    height: 200px;
+  }
+  .center {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .center {
+    bottom: -8rem;
+    font-size: 1.5rem;
+  }
+  .contact-container {
+    padding: 1rem;
+    display: block;
+  }
+  footer {
+    height: 30vh;
+  }
+  .social-media h4 {
+    margin-top: 0.8rem;
+    text-align: left;
+  }
+  .contact h4 {
+    text-align: center;
+  }
 }
