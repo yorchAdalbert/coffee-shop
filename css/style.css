@@ -27,7 +27,8 @@
 
 .center {
   position: absolute;
-  bottom: 2rem;
+  bottom: -4rem;
+  left: 44%;
 }
 
 /*Navigation Section*/
@@ -204,6 +205,7 @@ form {
   align-items: center;
   border-top: 0.5rem dashed burlywood;
   border-bottom: 0.5rem dashed burlywood;
+  margin-top: 2rem;
 }
 
 /*Footer Section*/
