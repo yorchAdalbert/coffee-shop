@@ -130,7 +130,7 @@
 .border--join {
   width: 50%;
   height: 76vh;
-  margin: 2rem 35rem;
+  margin: 2rem 30rem;
 }
 
 .user-info {
@@ -267,6 +267,15 @@ footer {
 /*Media queries*/
 
 /*Main Section*/
+
+@media screen and (max-width: 1440px) {
+  /*Join us Page*/
+  .border--join {
+    width: 100%;
+    margin: 2rem 25rem;
+  }
+}
+
 @media screen and (max-width: 1180px) {
   .mission p {
     padding: 0.5rem 10rem;
@@ -275,11 +284,26 @@ footer {
   .mission {
     bottom: -0.4rem;
   }
+  /*Join us Page*/
+  .border--join {
+    margin: 2rem 17rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  /*Join us Page*/
+  .border--join {
+    margin: 2rem 10rem;
+  }
 }
 
 @media screen and (max-width: 852px) {
   .mission p {
     padding: 0.5rem 1rem;
+  }
+  /*Join us Page*/
+  .border--join {
+    margin: 2rem 8rem;
   }
 }
 
@@ -293,6 +317,13 @@ footer {
   }
   .mission {
     margin-bottom: 1rem;
+  }
+  /*Join us Page*/
+  .border--join {
+    margin: 2rem 6rem;
+  }
+  .movement {
+    left: 50%;
   }
 }
 
@@ -324,6 +355,13 @@ footer {
   }
   .nav-items li {
     display: block;
+  }
+  /*Join us Page*/
+  .border--join {
+    margin: 2rem 2rem;
+  }
+  .movement {
+    left: 55%;
   }
 }
 
@@ -480,5 +518,20 @@ footer {
   }
   .member-card img {
     width: 20rem;
+  }
+  /*Join us Page*/
+  .border--join {
+    margin: 2rem 0.5rem;
+  }
+  .movement {
+    left: 40%;
+    font-size: 2rem;
+  }
+  .user-info form {
+    width: 70%;
+  }
+  .user-info {
+    justify-content: left;
+    padding-left: 1rem;
   }
 }
