@@ -118,6 +118,13 @@
   left: 10%;
 }
 
+.member-card img {
+  max-width: 100%;
+  height: 30rem;
+  display: block;
+  width: 20rem;
+}
+
 /*Join us Section*/
 
 .border--join {
@@ -320,15 +327,56 @@ footer {
   }
 }
 
-/*Locations and footer*/
+/*Media Queries*/
 
 @media screen and (max-width: 1222px) {
+  /*Main Page*/
   .center {
     left: 42%;
   }
-  /*Product Section*/
+  /*Product Page*/
   .move {
     left: 73%;
+  }
+  /*Team Page*/
+  .move-right {
+    left: 6%;
+  }
+  .members {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 1015px) {
+  .members {
+    margin-left: 0;
+    width: 100%;
+  }
+  .move-right {
+    left: 3%;
+  }
+}
+
+@media screen and (max-width: 1045px) {
+  .member-card img {
+    width: 15rem;
+    height: 25rem;
+    margin-top: 3rem;
+  }
+  .members {
+    width: 100%;
+    height: 77vh;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .member-card img {
+    width: 10rem;
+    height: 20rem;
+    margin-top: 4.5rem;
+  }
+  .move-right {
+    left: 4rem;
   }
 }
 
@@ -390,6 +438,20 @@ footer {
   .move {
     left: 15%;
   }
+  /*Team Page*/
+  .team {
+    flex-wrap: wrap;
+  }
+  .member-card img {
+    margin-top: 0.5rem;
+  }
+  .members {
+    height: 93vh;
+  }
+  .move-right {
+    left: 1rem;
+    font-size: 2rem;
+  }
 }
 
 /*Products Section*/
@@ -405,5 +467,18 @@ footer {
   }
   .border {
     margin: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 336px) {
+  .move-right {
+    font-size: 1.3rem;
+    left: 0;
+  }
+  .members {
+    height: 130vh;
+  }
+  .member-card img {
+    width: 20rem;
   }
 }
