@@ -407,6 +407,18 @@ footer {
   }
 }
 
+/*404*/
+
+.message {
+  height: 100vh;
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: brown;
+}
+
 /*Media Queries*/
 
 @media screen and (max-width: 1222px) {
